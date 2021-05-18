@@ -2,11 +2,14 @@
 <?php
 
 
+
 /*
   by xxxxxliil@github
   db-live-test.php released under MIT License.
 
 */
+
+
 
 $longopts = array(
     "dsn:",
@@ -17,7 +20,6 @@ $longopts = array(
 );
 
 $optind = null;
-
 
 $shortopts  = "";
 $shortopts .= "d:";
@@ -70,6 +72,7 @@ EOF;
 if (isset($cmd_options["V"]) || isset($cmd_options["version"])) {
     exit("db-live-test 0.0.1". "\n");
 }
+
 
 
 $db_options = array(
